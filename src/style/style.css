@@ -72,9 +72,8 @@ button:hover {
 #nav-page div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 17vh;
-  margin-inline: 3vw;
 }
 
 #ul-nav-page {
@@ -504,72 +503,4 @@ footer {
   font-size: 14px;
   font-weight: 400;
   color: #54595f;
-}
-
-@media screen and (max-width: 800px) {
-  #ul-nav-page,
-  #nav-page button {
-    display: none;
-  }
-
-  #conheca-mais-section {
-    flex-direction: column;
-    height: 100%;
-  }
-
-  #nums-section {
-    height: 100%;
-  }
-
-  #nums-section-valores {
-    flex-direction: column;
-  }
-
-  #sobre-section {
-    flex-direction: column;
-    height: 100%;
-  }
-
-  #beneficios-section {
-    height: 100%;
-    flex-direction: column;
-  }
-
-  #como-funciona-section {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  #como-funciona-box {
-    display: flex;
-    justify-content: center;
-    margin-right: 0px;
-    width: 100vw;
-    background-color: #fff;
-  }
-
-  #como-funciona-box div {
-    width: 100vw;
-    border-radius: 0;
-  }
-
-  #como-funciona-boxes {
-    width: 100vw;
-    background-color: #fff;
-    border-radius: 0;
-  }
-
-  #como-funciona-boxes p {
-    width: 100vw;
-  }
-
-  footer {
-    height: 100%;
-  }
-
-  #infos-footer {
-    display: flex;
-    flex-direction: column;
-  }
 }

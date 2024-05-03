@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/responsividade.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,33 +24,62 @@
                 </div>
                 <ul id="ul-nav-page">
                     <li>
-                        <a href="#" onclick="scrollToSection('conheca-mais-section', event)">
+                        <a href="#inicio" onclick="scrollToSection('conheca-mais-section', event)">
                             Inicio
                         </a>
                     </li>
                     <li>
-                        <a href="#" onclick="scrollToSection('sobre-section', event)">
+                        <a href="#sobre" onclick="scrollToSection('sobre-section', event)">
                             Sobre
                         </a>
                     </li>
                     <li>
-                        <a href="#" onclick="scrollToSection('beneficios-section', event)">
+                        <a href="#beneficios" onclick="scrollToSection('beneficios-section', event)">
                             Benefícios
                         </a>
                     </li>
                     <li>
-                        <a href="#" onclick="scrollToSection('como-funciona-section', event)">
+                        <a href="#comofunciona" onclick="scrollToSection('como-funciona-section', event)">
                             Como funciona
                         </a>
                     </li>
                 </ul>
                 <div>
                     <button type="button">Conheça mais!</button>
+                    <div id="menu-links" onclick="menuMobile()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </nav>
 
         <div id="espaco-branco"></div>
+        <nav id="ul-nav-responsi">
+            <ul>
+                <a href="#inicio" onclick="scrollToSection('conheca-mais-section', event)">
+                    <li>
+                        Inicio
+                    </li>
+                </a>
+                <a href="#sobre" onclick="scrollToSection('sobre-section', event)">
+                    <li>
+                        Sobre
+                    </li>
+                </a>
+                <a href="#beneficios" onclick="scrollToSection('beneficios-section', event)">
+                    <li>
+                        Benefícios
+                    </li>
+                </a>
+                <a href="#comofunciona" onclick="scrollToSection('como-funciona-section', event)">
+                    <li>
+                        Como funciona
+                    </li>
+                </a>
+            </ul>
+        </nav>
 
         <section id="conheca-mais-section">
 

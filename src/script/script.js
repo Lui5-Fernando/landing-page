@@ -1,3 +1,12 @@
+function menuMobile() {
+  const ulNavPage = document.querySelector("#ul-nav-responsi");
+  if (ulNavPage.style.display !== "flex") {
+    ulNavPage.style.display = "flex";
+  } else {
+    ulNavPage.style.display = "none";
+  }
+}
+
 function scrollToSection(sectionId, event) {
   event.preventDefault();
   var section;
